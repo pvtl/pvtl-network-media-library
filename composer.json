@@ -1,9 +1,9 @@
 {
-  "name": "humanmade/network-media-library",
+  "name": "pvtl/pvtl-network-media-library",
   "type": "wordpress-muplugin",
-  "description": "Network Media Library provides a central media library that's shared across all sites on the Multisite network.",
+  "description": "Network Media Library provides a central media library that's shared across all sites on the Multisite network. Modified By Pivotal Agency",
   "keywords": ["wordpress", "plugin", "multisite"],
-  "homepage": "https://github.com/humanmade/network-media-library",
+  "homepage": "https://github.com/pvtl/pvtl-network-media-library",
   "license": "MIT",
   "authors": [
     {
@@ -20,11 +20,16 @@
       "name": "Frank Bültge",
       "homepage": "https://bueltge.de",
       "role": "Developer"
+    },
+    {
+      "name": "Sheldon Braxton",
+      "homepage": "https://www.sheldonbrax.com/",
+      "role": "Developer"
     }
   ],
   "require": {
-    "php": ">=7",
-    "composer/installers": "^1.2"
+    "php": ">=7.4",
+    "composer/installers": "^2.2"
   },
   "require-dev": {
     "automattic/phpcs-neutron-standard": "^1.5",
