@@ -13,13 +13,15 @@ This small plugin transparently shares media from one central media library site
 
 ## Installation
 
-The plugin is available as a [Composer package](https://packagist.org/packages/humanmade/network-media-library).
+```bash
+# 1. Get it ready (to use a repo outside of packagist)
+composer config repositories.pvtl-sso git https://github.com/pvtl/pvtl-network-media-library
 
-    composer require humanmade/network-media-library
+# 2. Install the Plugin - we want all updates from this major version (while non-breaking)
+composer require "pvtl/pvtl-network-media-library:^1.5"
+``` 
 
-If you don't use Composer, install the plugin as you would normally.
-
-The plugin should either be installed as a mu-plugin or network activated. It's a network plugin and therefore cannot be activated on individual sites on the network.
+It's a network plugin and therefore cannot be activated on individual sites on the network.
 
 Site ID `2` is used by default as the central media library. You should configure your media library site ID via the filter hook `network-media-library/site_id`:
 

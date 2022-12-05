@@ -12,7 +12,7 @@
  * Description: Network Media Library provides a central media library that's shared across all sites on the Multisite network.
  * Network:     true
  * Plugin URI:  https://github.com/pvtl/pvtl-network-media-library
- * Version:     1.5.1
+ * Version:     1.5.2
  * Author:      Pivotal Agency
  * License:     MIT
  * License URI: ./LICENSE
