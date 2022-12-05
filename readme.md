@@ -15,7 +15,7 @@ This small plugin transparently shares media from one central media library site
 
 ```bash
 # 1. Get it ready (to use a repo outside of packagist)
-composer config repositories.pvtl-sso git https://github.com/pvtl/pvtl-network-media-library
+composer config repositories.pvtl-network-media-library git https://github.com/pvtl/pvtl-network-media-library
 
 # 2. Install the Plugin - we want all updates from this major version (while non-breaking)
 composer require "pvtl/pvtl-network-media-library:^1.5"
